@@ -1,0 +1,25 @@
+{
+  "name": "bokehtypescripttrials",
+  "version": "1.0.0",
+  "description": "Based on https://blog.angular-university.io/typescript-2-type-system-how-do-type-definitions-work-in-npm-when-to-use-types-and-why-what-are-compiler-opt-in-types/ and https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karel-van-de-Plassche/bokehTypescriptTrials.git"
+  },
+  "author": "Karel van de Plassche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karel-van-de-Plassche/bokehTypescriptTrials/issues"
+  },
+  "homepage": "https://github.com/Karel-van-de-Plassche/bokehTypescriptTrials#readme"
+}
