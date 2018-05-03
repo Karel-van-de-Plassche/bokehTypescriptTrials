@@ -1,0 +1,11 @@
+Based on
+https://blog.angular-university.io/typescript-2-type-system-how-do-type-definitions-work-in-npm-when-to-use-types-and-why-what-are-compiler-opt-in-types/
+and
+https://blog.angular-university.io/typescript-2-type-system-how-do-type-definitions-work-in-npm-when-to-use-types-and-why-what-are-compiler-opt-in-types/
+
+Use ts-node https://github.com/TypeStrong/ts-node
+npm install ts-node
+npm install typscript
+
+Now we can do:
+./node_modules/ts-node/dist/bin.js greeter.ts
