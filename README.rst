@@ -19,13 +19,13 @@ Now we can do:
 Now follow the next guide. At least do:
 
 .. code:: sh
-   
+
    npm install --save uuid@3.2.1
 
 We need this version so we can run the adjusted example:
 
 .. code:: javascript
-   
+
    import { v4 as uuid } from 'uuid';
    console.log(uuid());
 
@@ -35,3 +35,34 @@ Now we can do
 
    ./node_modules/ts-node/dist/bin.js naive_test.ts
    ./node_modules/ts-node/dist/bin.js commonjs_test.ts #fails
+
+Continuing
+
+.. code:: sh
+
+   npm install --save axios
+
+These will all fail, as nobody is responding! ;)
+.. code:: sh
+
+   ./node_modules/ts-node/dist/bin.js axios_test.ts
+   ./node_modules/ts-node/dist/bin.js axios_example.ts
+
+Blahblah
+
+.. code:: sh
+
+   npm install --save request
+   npm install --save request-promise
+
+This fails, we need nodeJS types to run this
+
+.. code:: sh
+
+   ./node_modules/ts-node/dist/bin.js request_test.ts
+
+So let's install the types
+
+.. code:: sh
+
+   npm install @types/node --save-dev
