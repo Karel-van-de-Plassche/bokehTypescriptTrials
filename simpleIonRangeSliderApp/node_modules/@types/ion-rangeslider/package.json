@@ -1,0 +1,26 @@
+{
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Sixin Li",
+      "url": "https://github.com/sixinli"
+    },
+    {
+      "name": "Karel van de Plassche",
+      "url": "https://github.com/Karel-van-de-Plassche/"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for Ion.RangeSlider",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/ion-rangeslider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Karel-van-de-Plassche/types-ion-rangeslider"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.8.3",
+  "version": "11.1.0"
+}
