@@ -1,0 +1,33 @@
+{
+  "name": "simpleionrangesliderapp",
+  "version": "1.0.0",
+  "description": "Blah",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/typescript/bin/tsc -p . && ./node_modules/browserify/bin/cmd.js scripts/app.js -o scripts/bundle.js"
+  },
+  "author": "Karel van de Plassche",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "ts-node": "^6.0.2",
+    "tsify": "^4.0.0",
+    "typescript": "^2.8.3",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karel-van-de-Plassche/bokehTypescriptTrials.git"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.1",
+    "ion-rangeslider": "^2.2.0",
+    "jquery": "^3.3.1"
+  }
+}
