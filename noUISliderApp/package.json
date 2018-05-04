@@ -2,25 +2,29 @@
   "name": "nouisliderapp",
   "version": "1.0.0",
   "description": "Blah",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/typescript/bin/tsc -p . && ./node_modules/browserify/bin/cmd.js scripts/app.js -o scripts/bundle.js"
   },
   "author": "Karel van de Plassche",
   "license": "MIT",
   "devDependencies": {
-    "@types/express": "^4.11.1",
     "@types/nouislider": "^9.0.4",
+    "browserify": "^16.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^4.0.2",
     "ts-node": "^6.0.2",
-    "typescript": "^2.8.3"
+    "tsify": "^4.0.0",
+    "typescript": "^2.8.3",
+    "vinyl-source-stream": "^2.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Karel-van-de-Plassche/bokehTypescriptTrials.git"
   },
   "dependencies": {
-    "commonjs": "0.0.1",
-    "express": "^4.16.3",
     "nouislider": "^11.1.0"
   }
 }

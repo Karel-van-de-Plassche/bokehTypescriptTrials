@@ -14,7 +14,7 @@ class Greeter {
     }
 
     start() {
-        this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
+        this.timerToken = window.setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
     }
 
     stop() {
