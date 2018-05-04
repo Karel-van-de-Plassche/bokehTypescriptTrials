@@ -1,4 +1,3 @@
-import { sayHello } from "./greet";
 import * as noUiSlider from "nouislider"
 //import * as wNumb from "wnumb"
 
